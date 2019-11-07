@@ -1,0 +1,340 @@
+2019-10-09 11:00:43,607 [restartedMain] INFO  com.example.SpringbootdemoApplication - Starting SpringbootdemoApplication on beixichen with PID 6052 (D:\IdeaProjects\springbootdemo\target\classes started by 西晨 in D:\IdeaProjects\springbootdemo)
+2019-10-09 11:00:43,643 [restartedMain] INFO  com.example.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2019-10-09 11:00:44,412 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-09 11:00:44,412 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-09 11:00:50,252 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:00:50,271 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:00:50,380 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 0 repository interfaces.
+2019-10-09 11:00:50,673 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:00:50,675 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:00:50,983 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-10-09 11:00:52,289 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$376815] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:00:52,648 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.config.RedisConfig$$EnhancerBySpringCGLIB$$6a2c211c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:00:52,779 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7fb7b547] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:00:54,955 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-09 11:00:55,051 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-09 11:00:55,102 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-09 11:00:55,103 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-09 11:00:55,458 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-09 11:00:55,458 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 11045 ms
+2019-10-09 11:00:59,442 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-09 11:01:04,621 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2019-10-09 11:01:04,921 [restartedMain] INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7d4d9d1:0/SimpleConnection@59f62ad9 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 2742]
+2019-10-09 11:01:05,156 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-10-09 11:01:05,298 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2019-10-09 11:01:05,307 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-10-09 11:01:05,311 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was some-test
+2019-10-09 11:01:05,336 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: hello belongs to groups: [[ResourceGroup{groupName='some-test', position=0, controller=com.example.controller.MainController}]] 
+2019-10-09 11:01:05,337 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendDemoQueue was rabbit-mq-controller
+2019-10-09 11:01:05,337 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: sendDemoQueue belongs to groups: [[ResourceGroup{groupName='rabbit-mq-controller', position=0, controller=com.example.controller.RabbitMQController}]] 
+2019-10-09 11:01:05,338 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendFanout was rabbit-mq-controller
+2019-10-09 11:01:05,338 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: sendFanout belongs to groups: [[ResourceGroup{groupName='rabbit-mq-controller', position=0, controller=com.example.controller.RabbitMQController}]] 
+2019-10-09 11:01:05,338 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicAB was rabbit-mq-controller
+2019-10-09 11:01:05,338 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: sendTopicTopicAB belongs to groups: [[ResourceGroup{groupName='rabbit-mq-controller', position=0, controller=com.example.controller.RabbitMQController}]] 
+2019-10-09 11:01:05,338 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicBC was rabbit-mq-controller
+2019-10-09 11:01:05,339 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: sendTopicTopicBC belongs to groups: [[ResourceGroup{groupName='rabbit-mq-controller', position=0, controller=com.example.controller.RabbitMQController}]] 
+2019-10-09 11:01:05,339 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicB was rabbit-mq-controller
+2019-10-09 11:01:05,339 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: sendTopicTopicB belongs to groups: [[ResourceGroup{groupName='rabbit-mq-controller', position=0, controller=com.example.controller.RabbitMQController}]] 
+2019-10-09 11:01:05,339 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getIndex was user-controller
+2019-10-09 11:01:05,340 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getIndex belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.controller.UserController}]] 
+2019-10-09 11:01:05,340 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getAll was user-controller
+2019-10-09 11:01:05,340 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getAll belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.controller.UserController}]] 
+2019-10-09 11:01:05,341 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getUserById was user-controller
+2019-10-09 11:01:05,341 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: getUserById belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.controller.UserController}]] 
+2019-10-09 11:01:05,341 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method redisGetUser was user-controller
+2019-10-09 11:01:05,341 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: redisGetUser belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.controller.UserController}]] 
+2019-10-09 11:01:05,341 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method Test was user-controller
+2019-10-09 11:01:05,342 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: Test belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.controller.UserController}]] 
+2019-10-09 11:01:05,342 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method TT was user-controller
+2019-10-09 11:01:05,342 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: TT belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.controller.UserController}]] 
+2019-10-09 11:01:05,342 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method T was user-controller
+2019-10-09 11:01:05,342 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: T belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.controller.UserController}]] 
+2019-10-09 11:01:05,411 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/rabbit-mq-controller Description: rabbit-mq-controller Position: 0
+2019-10-09 11:01:05,419 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/some-test Description: some-test Position: 0
+2019-10-09 11:01:05,420 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+2019-10-09 11:01:05,538 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,538 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2019-10-09 11:01:05,543 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,543 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-10-09 11:01:05,553 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /sendDemoQueue.com.example.controller.RabbitMQController.sendDemoQueue.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,553 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /sendDemoQueue.com.example.controller.RabbitMQController.sendDemoQueue.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,572 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendDemoQueue was rabbit-mq-controller
+2019-10-09 11:01:05,575 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendDemoQueue was rabbit-mq-controller
+2019-10-09 11:01:05,588 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,588 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2019-10-09 11:01:05,588 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,589 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-10-09 11:01:05,589 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /sendFanout.com.example.controller.RabbitMQController.sendFanout.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,589 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /sendFanout.com.example.controller.RabbitMQController.sendFanout.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,590 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendFanout was rabbit-mq-controller
+2019-10-09 11:01:05,591 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendFanout was rabbit-mq-controller
+2019-10-09 11:01:05,593 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,593 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2019-10-09 11:01:05,593 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,593 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-10-09 11:01:05,593 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /sendTopicTopicAB.com.example.controller.RabbitMQController.sendTopicTopicAB.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,593 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /sendTopicTopicAB.com.example.controller.RabbitMQController.sendTopicTopicAB.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,594 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicAB was rabbit-mq-controller
+2019-10-09 11:01:05,595 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicAB was rabbit-mq-controller
+2019-10-09 11:01:05,596 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,596 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2019-10-09 11:01:05,597 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,597 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-10-09 11:01:05,597 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /sendTopicTopicB.com.example.controller.RabbitMQController.sendTopicTopicB.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,597 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /sendTopicTopicB.com.example.controller.RabbitMQController.sendTopicTopicB.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,598 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicB was rabbit-mq-controller
+2019-10-09 11:01:05,599 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicB was rabbit-mq-controller
+2019-10-09 11:01:05,600 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,600 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+2019-10-09 11:01:05,600 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+2019-10-09 11:01:05,600 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-10-09 11:01:05,601 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /sendTopicTopicBC.com.example.controller.RabbitMQController.sendTopicTopicBC.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,601 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /sendTopicTopicBC.com.example.controller.RabbitMQController.sendTopicTopicBC.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,602 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicBC was rabbit-mq-controller
+2019-10-09 11:01:05,603 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method sendTopicTopicBC was rabbit-mq-controller
+2019-10-09 11:01:05,629 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-10-09 11:01:05,629 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-10-09 11:01:05,630 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-10-09 11:01:05,630 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-10-09 11:01:05,631 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /hello.com.example.controller.MainController.hello.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,631 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /hello.com.example.controller.MainController.hello.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,631 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was some-test
+2019-10-09 11:01:05,632 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method hello was some-test
+2019-10-09 11:01:05,639 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Integer(false)
+2019-10-09 11:01:05,639 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Integer(false)
+2019-10-09 11:01:05,639 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Integer(false)
+2019-10-09 11:01:05,639 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Integer(false)
+2019-10-09 11:01:05,640 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,640 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.domain.User(true)
+2019-10-09 11:01:05,641 [restartedMain] INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.domain.User(true)
+2019-10-09 11:01:05,641 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.domain.User(true)
+2019-10-09 11:01:05,768 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,769 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.domain.User(true)
+2019-10-09 11:01:05,771 [restartedMain] INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.domain.User(true)
+2019-10-09 11:01:05,771 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.domain.User(true)
+2019-10-09 11:01:05,774 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user.com.example.controller.UserController.T.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,774 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user.com.example.controller.UserController.T.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,785 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method T was user-controller
+2019-10-09 11:01:05,786 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method T was user-controller
+2019-10-09 11:01:05,788 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,789 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.domain.User(true)
+2019-10-09 11:01:05,789 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,789 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.domain.User(true)
+2019-10-09 11:01:05,789 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/tt/{input}.com.example.controller.UserController.TT.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,789 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/tt/{input}.com.example.controller.UserController.TT.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,792 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method TT was user-controller
+2019-10-09 11:01:05,793 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method TT was user-controller
+2019-10-09 11:01:05,794 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,795 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.domain.User(true)
+2019-10-09 11:01:05,795 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,795 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.domain.User(true)
+2019-10-09 11:01:05,795 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/test.com.example.controller.UserController.Test.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,795 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/test.com.example.controller.UserController.Test.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,797 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method Test was user-controller
+2019-10-09 11:01:05,798 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method Test was user-controller
+2019-10-09 11:01:05,799 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.util.List<com.example.domain.User>(true)
+2019-10-09 11:01:05,799 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.util.List<com.example.domain.User>(true)
+2019-10-09 11:01:05,800 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.util.List<com.example.domain.User>(true)
+2019-10-09 11:01:05,800 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.util.List<com.example.domain.User>(true)
+2019-10-09 11:01:05,801 [restartedMain] INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.domain.User(true)
+2019-10-09 11:01:05,801 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.domain.User(true)
+2019-10-09 11:01:05,801 [restartedMain] INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: java.util.List<com.example.domain.User>(true)
+2019-10-09 11:01:05,801 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key java.util.List<com.example.domain.User>(true)
+2019-10-09 11:01:05,842 [restartedMain] INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.example.domain.User(true)
+2019-10-09 11:01:05,842 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.example.domain.User(true)
+2019-10-09 11:01:05,843 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/getAll.com.example.controller.UserController.getAll.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,843 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/getAll.com.example.controller.UserController.getAll.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,844 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getAll was user-controller
+2019-10-09 11:01:05,845 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getAll was user-controller
+2019-10-09 11:01:05,846 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-10-09 11:01:05,846 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-10-09 11:01:05,846 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-10-09 11:01:05,846 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-10-09 11:01:05,847 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/.com.example.controller.UserController.getIndex.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,847 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/.com.example.controller.UserController.getIndex.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,848 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getIndex was user-controller
+2019-10-09 11:01:05,849 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getIndex was user-controller
+2019-10-09 11:01:05,851 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-10-09 11:01:05,851 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-10-09 11:01:05,852 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-10-09 11:01:05,852 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-10-09 11:01:05,852 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/getUserById.com.example.controller.UserController.getUserById.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,852 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/getUserById.com.example.controller.UserController.getUserById.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,854 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getUserById was user-controller
+2019-10-09 11:01:05,858 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method getUserById was user-controller
+2019-10-09 11:01:05,860 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,861 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.example.domain.User(true)
+2019-10-09 11:01:05,861 [restartedMain] INFO  springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.example.domain.User(true)
+2019-10-09 11:01:05,861 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.example.domain.User(true)
+2019-10-09 11:01:05,861 [restartedMain] INFO  springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /user/redisTest.com.example.controller.UserController.redisGetUser.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,861 [restartedMain] INFO  springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/redisTest.com.example.controller.UserController.redisGetUser.DefaultGenericTypeNamingStrategy
+2019-10-09 11:01:05,863 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method redisGetUser was user-controller
+2019-10-09 11:01:05,864 [restartedMain] INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method redisGetUser was user-controller
+2019-10-09 11:01:05,994 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-09 11:01:06,021 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-09 11:01:06,072 [restartedMain] INFO  com.example.SpringbootdemoApplication - Started SpringbootdemoApplication in 28.929 seconds (JVM running for 44.272)
+2019-10-09 11:03:57,764 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-10-09 11:03:58,342 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-10-09 11:03:58,343 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-10-09 11:03:59,342 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-10-09 11:03:59,343 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-10-09 11:04:00,340 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-10-09 11:04:00,341 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-10-09 11:04:01,340 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-10-09 11:04:01,341 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-10-09 11:04:02,341 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-10-09 11:04:02,342 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-10-09 11:04:03,342 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-10-09 11:04:03,343 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-10-09 11:04:04,342 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-10-09 11:04:04,350 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-10-09 11:04:04,350 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-10-09 11:04:04,350 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-10-09 11:04:04,350 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-10-09 11:04:04,350 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-10-09 11:04:04,351 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-10-09 11:04:04,351 [Thread-58] INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-10-09 11:04:05,598 [restartedMain] INFO  com.example.SpringbootdemoApplication - Starting SpringbootdemoApplication on beixichen with PID 6052 (D:\IdeaProjects\springbootdemo\target\classes started by 西晨 in D:\IdeaProjects\springbootdemo)
+2019-10-09 11:04:05,599 [restartedMain] INFO  com.example.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2019-10-09 11:04:06,423 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:04:06,423 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:04:06,432 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-10-09 11:04:06,434 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:04:06,434 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:04:06,440 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-10-09 11:04:06,513 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$376815] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:04:06,519 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.config.RedisConfig$$EnhancerBySpringCGLIB$$6a2c211c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:04:06,524 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7fb7b547] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:04:06,823 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-09 11:04:06,825 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-09 11:04:06,825 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-09 11:04:06,825 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-09 11:04:07,155 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-09 11:04:07,155 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1553 ms
+2019-10-09 11:04:07,647 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-09 11:04:11,714 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2019-10-09 11:04:11,715 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-10-09 11:04:11,715 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-10-09 11:04:11,715 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-10-09 11:04:11,715 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-10-09 11:04:11,715 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-10-09 11:04:21,472 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-09 11:04:21,479 [restartedMain] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-09 11:04:45,255 [restartedMain] INFO  com.example.SpringbootdemoApplication - Starting SpringbootdemoApplication on beixichen with PID 4092 (D:\IdeaProjects\springbootdemo\target\classes started by 西晨 in D:\IdeaProjects\springbootdemo)
+2019-10-09 11:04:45,280 [restartedMain] INFO  com.example.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2019-10-09 11:04:45,398 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-09 11:04:45,398 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-09 11:04:48,121 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:04:48,124 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:04:48,155 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-10-09 11:04:48,186 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:04:48,188 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:04:48,220 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-10-09 11:04:48,931 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d9f049e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:04:49,042 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.config.RedisConfig$$EnhancerBySpringCGLIB$$a793bda5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:04:49,092 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$bd1f51d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:04:51,421 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-09 11:04:51,499 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-09 11:04:51,550 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-09 11:04:51,550 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-09 11:04:52,127 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-09 11:04:52,127 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6729 ms
+2019-10-09 11:04:54,112 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-09 11:04:55,083 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2019-10-09 11:04:55,084 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-10-09 11:04:55,084 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-10-09 11:04:55,084 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-10-09 11:04:55,084 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-10-09 11:04:55,084 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-10-09 11:04:56,585 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-09 11:04:56,596 [restartedMain] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-09 11:06:25,004 [restartedMain] INFO  com.example.SpringbootdemoApplication - Starting SpringbootdemoApplication on beixichen with PID 8832 (D:\IdeaProjects\springbootdemo\target\classes started by 西晨 in D:\IdeaProjects\springbootdemo)
+2019-10-09 11:06:25,008 [restartedMain] INFO  com.example.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2019-10-09 11:06:25,068 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-09 11:06:25,068 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-09 11:06:27,699 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:06:27,728 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:06:27,756 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-10-09 11:06:27,793 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:06:27,795 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:06:27,823 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-09 11:06:29,415 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$672cd4ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:06:29,578 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.config.RedisConfig$$EnhancerBySpringCGLIB$$d1218db4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:06:29,618 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e6ad21df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:06:30,161 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-09 11:06:30,176 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-09 11:06:30,185 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-09 11:06:30,185 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-09 11:06:30,308 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-09 11:06:30,308 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5239 ms
+2019-10-09 11:06:32,480 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-09 11:06:38,025 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2019-10-09 11:06:38,026 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-10-09 11:06:38,026 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-10-09 11:06:38,026 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-10-09 11:06:38,026 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-10-09 11:06:38,026 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-10-09 11:07:30,293 [restartedMain] INFO  com.example.SpringbootdemoApplication - Starting SpringbootdemoApplication on beixichen with PID 7892 (D:\IdeaProjects\springbootdemo\target\classes started by 西晨 in D:\IdeaProjects\springbootdemo)
+2019-10-09 11:07:30,333 [restartedMain] INFO  com.example.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2019-10-09 11:07:30,438 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-09 11:07:30,439 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-09 11:07:33,054 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:07:33,058 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:07:33,091 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-10-09 11:07:33,132 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 11:07:33,133 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 11:07:33,164 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-10-09 11:07:34,309 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65f6e1cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:07:34,551 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.config.RedisConfig$$EnhancerBySpringCGLIB$$cfeb9ad3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:07:34,633 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e5772efe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 11:07:35,912 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-09 11:07:36,013 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-09 11:07:36,040 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-09 11:07:36,041 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-09 11:07:36,319 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-09 11:07:36,319 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5880 ms
+2019-10-09 11:07:37,371 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-09 11:07:38,870 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2019-10-09 11:07:38,871 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-10-09 11:07:38,871 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-10-09 11:07:38,871 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-10-09 11:07:38,871 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-10-09 11:07:38,871 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-10-09 11:07:42,073 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-09 11:07:42,084 [restartedMain] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-09 12:11:20,251 [restartedMain] INFO  com.example.SpringbootdemoApplication - Starting SpringbootdemoApplication on beixichen with PID 6748 (D:\IdeaProjects\springbootdemo\target\classes started by 西晨 in D:\IdeaProjects\springbootdemo)
+2019-10-09 12:11:20,257 [restartedMain] INFO  com.example.SpringbootdemoApplication - No active profile set, falling back to default profiles: default
+2019-10-09 12:11:20,424 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-09 12:11:20,425 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-09 12:11:22,280 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 12:11:22,282 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 12:11:22,317 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-10-09 12:11:22,329 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-09 12:11:22,331 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-09 12:11:22,347 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-10-09 12:11:22,943 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccaed41d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 12:11:23,091 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.example.config.RedisConfig$$EnhancerBySpringCGLIB$$36a38d24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 12:11:23,189 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$4c2f214f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-09 12:11:24,589 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-09 12:11:26,104 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-09 12:11:26,477 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-09 12:11:26,478 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-09 12:11:27,226 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-09 12:11:27,226 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6801 ms
+2019-10-09 12:11:31,013 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-10-09 12:11:35,017 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2019-10-09 12:11:35,018 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-10-09 12:11:35,018 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-10-09 12:11:35,018 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-10-09 12:11:35,018 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-10-09 12:11:35,019 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-10-09 12:11:38,224 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-09 12:11:38,238 [restartedMain] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
